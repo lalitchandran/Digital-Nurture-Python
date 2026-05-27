@@ -1,1 +1,17 @@
-##ANSI SQL Using MySql excersices##
+## ANSI SQL Using MySQL Exercises
+
+### 1. Create Database and Users Table
+
+```sql
+CREATE DATABASE ansi_sql_exercises;
+
+USE ansi_sql_exercises;
+
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    registration_date DATE NOT NULL
+);
+```
