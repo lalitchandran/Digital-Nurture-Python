@@ -15,3 +15,4 @@ CREATE TABLE Users (
     registration_date DATE NOT NULL
 );
 ```
+### 2.
